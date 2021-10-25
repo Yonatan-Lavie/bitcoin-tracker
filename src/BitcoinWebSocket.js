@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import useWebSocket, { ReadyState } from 'react-use-websocket';
 import { useDispatch } from 'react-redux';
 import { updateData } from './redux/actions';
